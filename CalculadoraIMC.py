@@ -14,8 +14,12 @@ imc = peso / (altura * 2) #Altura elevado a 2
 
 linha_1 = f'{nome} tem altura igual a: {altura:.2f} '
 
-linha_2 = f'O IMC de seu corpo eh igual a: {imc:.2f} '
+linha_2 = f'peso {peso}kg '
+
+linha_3 = f'O IMC de seu corpo eh igual a: {imc:.2f} '
 
 print(linha_1)
 
 print(linha_2)
+
+print(linha_3)
